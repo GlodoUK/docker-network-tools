@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Build Odoo image
+      - name: Build Image
         run:
           docker build --tag $IMAGE_NAME .
 
